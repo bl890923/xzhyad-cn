@@ -1,0 +1,36 @@
+/*@charset "utf-8";
+body {font-family:microsoft yahei; margin:0; padding:0; font-size:14px; color:#515151; background:#FFF;}
+*{list-style-type:none; margin:0; padding:0;  transition:all 0.2s ease-in 0s; -webkit-transition:all 0.2s ease-in 0s; -moz-transition:all 0.2s ease-in 0s;}
+img, a img{vertical-align:top;}
+input,select,textarea{vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{font-size:12px;font-weight:normal;}
+a{color:#000; text-decoration:none; }
+a:hover {color:#806800; text-decoration:none;}
+.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;overflow:hidden;}
+.mauto{width:1100px; margin:0 auto;}
+.m_auto{margin:0 auto;}
+
+.fb{font-weight:bold;}
+.f11px{font-size:11px;}
+.f14px{font-size:14px;}
+.f16px{font-size:16px;}
+.f10px{font-size:10px;}
+.li20px{line-height:20px;}
+.f18px{font-size:18px;}
+.f20px{font-size:20px;}
+.f24px{font-size:24px;}
+.f30px{font-size:30px;}
+.yahei{font-family:microsoft yahei;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:25px;}
+.ml10{margin-left:10px;}
+.ml13{margin-left:13px;}
+.ml30{margin-left:30px;}
+.fl{float:left;}
+.fr{float:right;}
+.posr{position:relative;}
+.ovht{overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}*/

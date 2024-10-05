@@ -1,0 +1,47 @@
+/*@charset "utf-8";
+.title01{height:40px; color:#000000;}
+.title01 h3{display:block; margin-top:10px; font-size:18px; line-height:40px;}
+
+.title02{text-align:center;}
+.title02 h3{ display:block; height:57px; letter-spacing:15px; line-height:57px; font-size:30px; color:#000;}
+.title02 span{ display:block; height:24px; line-height:24px; letter-spacing:10px; font-size:15px; text-transform:uppercase; color:#515151; }
+
+.title03{text-align:center;}
+.title03 h3{ display:block; height:28px; letter-spacing:15px; line-height:28px; font-size:20px; color:#FFF;}
+.title03 span{ display:block; height:30px; line-height:30px; letter-spacing:10px; font-size:15px; text-transform:uppercase; color:#FFF; }
+
+.title04{padding-top:10px; height:65px; text-align:center; background:url(../images/icon12.png) repeat-x left bottom;}
+.title04 h3{ display:block; height:32px; letter-spacing:1px; line-height:32px; font-size:26px; color:#000;}
+.title04 span{ display:block; height:19px; line-height:19px; letter-spacing:2px; font-size:15px; text-transform:uppercase; color:#000; overflow:hidden;}
+
+.title05{padding-bottom:5px; height:52px; background:url(../images/icon14.png) repeat-x left bottom;}
+.title05 h3{display:block; float:left; text-indent:60px; height:52px; line-height:52px; font-size:18px; color:#000; background:url(../images/icon13.png) no-repeat 15px center; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; width:500px;}
+
+.title06{padding-top:30px; text-align:center;}
+.title06 h3{ display:block; height:50px; line-height:50px; padding-bottom:10px; font-size:30px; color:#000;  background:url(../images/icon15.jpg) no-repeat center bottom;}
+.title06 span{ display:block; padding-top:5px; height:30px; line-height:30px; font-size:16px; text-transform:uppercase; color:#646464; overflow:hidden;}
+
+
+
+
+.rol01{ position:absolute; width:36px; height:155px; top:70px; left:-80px;}
+.rol01 a{display:block; width:36px; height:155px; background:url(../images/rol01.png) no-repeat center center #dadada;}
+.rol01 a:hover{ background-color:#c4e983;}
+.ror01{ position:absolute; width:36px; height:155px; top:70px; right:-80px;}
+.ror01 a{display:block; width:36px; height:155px; background:url(../images/ror01.png) no-repeat center center #dadada;}
+.ror01 a:hover{ background-color:#c4e983;}
+
+.rol02{ position:absolute; width:36px; height:155px; top:170px; left:-80px;}
+.rol02 a{display:block; width:36px; height:155px; background:url(../images/rol01.png) no-repeat center center #2582bd;}
+.rol02 a:hover{ background-color:#97be0d;}
+.ror02{ position:absolute; width:36px; height:155px; top:170px; right:-80px;}
+.ror02 a{display:block; width:36px; height:155px; background:url(../images/ror01.png) no-repeat center center #2582bd;}
+.ror02 a:hover{ background-color:#97be0d;}
+
+.more01{float:right; margin-top:29px; width:58px; height:19px; border:1px solid #050706; line-height:19px; text-align:center;}
+.more01 a{display:block; color:#343434; font-size:12px;}
+.more01 a:hover{display:block; color:#816801;}
+
+.actGotop {width: 42px; height: 42px; position:fixed; bottom:20px; right:20px; z-index:9999; display:none; cursor:pointer; background: url(../images/backTop.png) no-repeat; background-size:cover;}
+.actGotop .ico { display: block; width: 9px; height: 10px; background: url(../images/backTop_ico.png) no-repeat scroll center top; margin: 12px auto 0px; -webkit-transition: all 400ms; -ms-transition: all 400ms; -moz-transition: all 400ms; transition: all 400ms;}
+.actGotop:hover .ico { margin-top: 10px;}*/

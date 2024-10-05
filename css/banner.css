@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+	width:1920px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+#example{
+	width:1920px;
+	position:relative;
+}
+#ribbon{
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+#frame{
+	position:absolute;
+	z-index:0;
+	width:1920px;
+	top:-3px;
+	left:-80px;
+}
+#slides{
+	position:absolute;
+	z-index:100;
+}
+#slides .next,#slides .prev{
+	position:absolute;
+	top:220px;
+	width:24px;
+	height:42px;
+	display:block;
+	z-index:101; display:none;
+}
+.slides_container{
+	width:1920px;
+	overflow:hidden;
+	position:relative;
+}
+#slides .prev{
+	right:409px;
+	
+}
+#slides .next{
+	left:409px;
+	
+}
+.pagination{
+	
+	display: block;
+	position:absolute;
+    right:910px;
+	z-index:20000;
+	 bottom:25px;
+	  width:100px;
+}
+.pagination li{
+	float:left;
+}
+.pagination li a{
+	display:inline-block; margin:0 5px; width:12px; height:12px; background:#FFF; overflow:hidden; border-radius:6px; font-size:0px;
+}
+
+.pagination li.current a{
+	 background:#e50074;
+}
+.caption{
+	position:absolute;
+	bottom:-35px;
+	height:30px;
+	padding:5px 20px 0 20px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	width:898px;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow: 1px 1px 1px #ccc;
+	display: none;
+}

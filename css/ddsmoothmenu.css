@@ -1,0 +1,83 @@
+﻿@charset "utf-8";
+.ddsmoothmenu{font-size:14px;}
+.ddsmoothmenu a{text-align:center;}
+.ddsmoothmenu ul{
+z-index:100;
+padding:0;
+list-style-type: none;
+}
+
+/*.i_nav li{float:left; height:100px; padding:0 15px;}
+.i_nav li > a{display:block; color:#FFF; padding:0 10px; height:98px; line-height:98px; font-size:18px; text-align:center;  transition:none;}
+.i_nav li > a:hover{color:#FFF; border-bottom:2px solid #FFF;}*/
+
+/*.add .i_nav li > a{ color:#3e3a39;}
+.add .i_nav li > a:hover{ color:#e40073; border-bottom:2px solid #e40073;}
+.add .i_nav li > a.on{ color:#e40073;}*/
+
+
+.ddsmoothmenu ul li{position: relative;display: inline;float:left; display:inline; color:#FFF; text-align:center; height:100px;  padding:0 15px;}
+.nava{display:block; line-height:98px; color:#FFF; font-family:microsoft yahei; font-size: 18px;}
+* html .nava{ /*IE6 hack to get sub menu links to behave correctly*/display: inline-block;}
+.nava:hover,.navactive:hover{display:block;  line-height:98px; font-family:microsoft yahei; color:#FFF;  border-bottom:2px solid #FFF; font-size: 18px;}
+.selected,.navactive{display:block;  line-height:98px; font-family:microsoft yahei;color:#FFF;  border-bottom:2px solid #FFF; font-size: 18px;}
+
+
+.add .ddsmoothmenu ul li{position: relative;display: inline;float:left; display:inline; color:#3e3a39; text-align:center; height:100px;  padding:0 15px;}
+.add .nava{display:block; line-height:98px; color:#3e3a39; font-family:microsoft yahei;}
+.add .nava:hover,.add .navactive:hover{display:block;  line-height:98px; font-family:microsoft yahei; color:#e40073;  border-bottom:2px solid #e40073;}
+.add .selected,.add .navactive{display:block;  line-height:98px; font-family:microsoft yahei;color:#e40073;  border-bottom:2px solid #e40073;}
+
+
+.i_nav ul li ul{
+position: absolute; width:100px; left:-22px !important;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+}
+* html .i_nav ul li ul{}
+.i_nav ul li ul li{
+display: list-item; margin:0 auto; background:none;
+
+height:30px;line-height:30px; height:100%;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.i_nav ul li ul li ul{
+top:0;
+}
+.i_nav ul li ul li a
+{
+display:block; float:left;
+font: normal 12px Verdana;
+width:100px;
+height:30px; color:#3e3a39;
+line-height:30px; background-color:#fff; text-align:center; z-index:2001;
+
+margin: 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; cursor:pointer;
+}
+.navliv{ height:30px; }
+.i_nav ul li ul li a:hover{ font-weight:bold; text-decoration:none;}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 15px;
+}
+.ddshadow{ /*shadow for NON CSS3 capable browsers*/
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+ filter:alpha(opacity=0);opacity: 0;}
+
+
+/*------------------------------------------------------*/
+
+/* End */

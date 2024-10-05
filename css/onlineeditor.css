@@ -1,0 +1,60 @@
+﻿
+/* --------鼠标滑过对象后可移动对象的样式--------- */
+.edit_box{ position:absolute; border:1px solid #ffa103; /* border:1px solid #00beff; width:192px; height:27px; top:388px; left:10px; */}
+.edit_mask{/* cursor: pointer; */ height:100%; background: #ffa103; /* background: #00feff; */ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=20); opacity:0.2;}
+.edit_btn_bar{ position:absolute; /* top:4px; right:4px; */ top: 1px; right: 1px;}
+.edit_btn_bar img{ cursor:pointer; float:left; margin-left:2px;}
+.edit_btn_bar input{ cursor:pointer; float:left; margin-left:2px;}
+
+/* --------鼠标移动对象时可移动对象区域的样式--------- */
+.edit_box_bg{border: dashed 1px #ff0000;}
+
+.loadding{ position:absolute; left:45%; top:50%; z-index:1000; width: 200px;}
+.loadding div{ background:url(../images/loading.gif) no-repeat 4px center; padding: 2px 4px 2px 28px; color: #FF6600; font-size: 14px; line-height: 20px;}
+ 
+/* --------在线编辑管理界面的样式加载--------- */
+.pop2mask{ position:absolute; width:100%; height:100%; /* background:#000; */ filter:alpha(opacity=40); opacity: 0.4;}
+.pop2load{position:absolute; z-index:100; /* top: 20px; */ top: 0px; display: block; width: 100%;}
+.pop2load .mainLoad{ /* border: solid 2px #b4ea71; */ border:1px solid #e6f0f6; width:379px; background:#fff; display: block;}
+.pop2load .loadHead{ background:url(../images/poptit_bg.gif) repeat-x left bottom #fafafa; height:30px; line-height: 30px; clear: both; display: block; position: relative;}
+
+.pop2load .loadHead .loadTitle{position:absolute; background:none; color: #4f556c; font-weight:bold; top: 0px; left: 0px; padding-left: 10px; _padding-top: 6px; vertical-align: middle;}
+.pop2load .loadHead .loadTitle img{ margin-right: 8px; vertical-align: middle; border: none;}
+.pop2load .loadHead .close{ background:url(../images/poptop_close.gif) no-repeat left center; position:absolute; top: 0px; right: 0px; cursor:pointer; padding: 0px 10px 0px 16px; _padding-top: 4px; height: 26px; line-height: 26px; vertical-align: middle;}
+
+.popCloseBtn{ margin: 0px auto; z-index: 2000; position: absolute; text-align: center; line-height: 30px; height: 26px; padding-top: 4px; display:block; width: 100%; border-top: solid 1px #ebcb5a; border-bottom: solid 1px #ebcb5a; background-color:#ffffd1;}
+.popCloseBtn a{ width:100px; line-height:22px; height: 22px; _height: 16px; _padding-top: 6px; display: block; margin: 0px auto; color:#4f556c; vertical-align: middle; background:url(../images/bgb03.gif) no-repeat center center;}
+.popCloseBtn a:hover,.popCloseBtn a:active {color:#e80505; font-weight:bold; text-decoration: none; /* background:url(../images/bgb03.gif) no-repeat center center; */}
+.popCloseBtn img{ cursor: pointer; vertical-align: middle; padding-right: 4px;}
+
+.DragDragBox {/* FILTER:alpha(opacity=70); z-index: 100; */ overflow: hidden;}
+
+/* ----在线编辑需要引用的样式开始---- */
+.edit_nullmodule
+{
+	display: none;
+}
+.edit_addmodule
+{
+	display: block;
+	line-height: 20px;
+	margin: 2px auto;
+	padding: 4px;
+	color: #FF0000;
+	text-align: center;
+	border: solid 1px #dddddd;
+	background-color: #eeeeee;
+}
+.move_divouter
+{
+	display: table;
+	/*
+	height: 100%;
+	*/
+	/* 以下定义为了拖曳功能方便 */
+	padding-bottom: 6px;
+	/*
+	border: solid 1px #FF0000;
+	*/
+}
+/* ----在线编辑需要引用的样式结束---- */
